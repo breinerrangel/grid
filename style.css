@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    display: grid;
+    margin: auto;
+    width: 60%;
+    height: 800px;
+   
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+}
+
+    
+   
+
+
+.caja{
+    border-radius: 10px;
+}
+
+   
+    
+.a{
+    
+    
+    
+    background-color: aqua;
+    grid-row: 1/3;
+    background-image: url(https://media.istockphoto.com/id/1302205652/es/foto/fondo-espacial-ca%C3%B3tico-planetas-estrellas-y-galaxias-en-el-espacio-exterior-que-muestran-la.webp?s=2048x2048&w=is&k=20&c=LFoxFA5DP5605Rd4lsSpN_WaAthJTQkwOwU0tcgxOA4=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    
+}
+.b{
+    
+   
+    
+    background-color: blue;
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.c{
+ 
+    
+  
+    background-color:brown;
+    grid-column: 3/5;
+    background-image: url(https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+   
+
+}
+.d{
+   
+   
+   
+    background-color:chocolate;
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+} 
+.e{
+   
+    
+    background-color:cornflowerblue;
+    grid-row: 2/4;
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+.f{
+    
+   
+    background-color:deepskyblue;
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.g{
+   
+   
+    background-color:darkcyan;
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.h{
+    
+    
+    background-color:darkred;
+    grid-column: 3/5;
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+    
+  
+    
+
